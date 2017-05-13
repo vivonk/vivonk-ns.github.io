@@ -2,14 +2,14 @@
 #
 
 # Site settings
-title: Ajayrahul
+title: Ajay Rahul
 description: |
   Hey! This is my Blog! Cheers!
 
 
 
 
-owner: Ajayrahul # or company name
+owner: Ajay Rahul # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: ajayrahul97@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
