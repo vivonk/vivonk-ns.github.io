@@ -1,25 +1,18 @@
-<!-- Header -->
-<header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
-  <h1><a href="{{ site.baseurl }}/index.html">{{ site.title }}</a></h1>
-  <nav id="nav">
-    <ul>
-      <li class="special">
-        <a href="#menu" class="menuToggle"><span>Menu</span></a>
-        <div id="menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
-                   class="icon fa-feed"> RSS Feed</a></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </nav>
+<header class="bar-header">
+    <a id="menu">
+        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    </a>
+    <a id="search" class="dosearch">
+        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
+    </a>
+    <h1 class="logo">
+        <a href="{{ site.baseurl }}/">
+            {{ site.username }}
+        </a>
+    </h1>
 </header>
+
+<div id="mask" class="overlay"></div>
+
+{% include menu.html %}
+{% include search.html %}
