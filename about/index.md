@@ -21,20 +21,9 @@ My goal is to build products that would have positive impact on millions of user
 I started learning and writing code since highschool. Since then, I have worked on multiple web and android applications. I classify myself as a Fullstack developer, both frontend and backend components. I enjoy working with the users to improve their experience with the product while expanding the functionality of the product to support that experience.
 
 
-In the future, I plan to move onto learning about machine learning and deep learnign with distributed systems.
+In the future, I plan to move onto learning about machine learning and deep learnign with distributed systems processing.
 
 ---
-
-
-#Companies I've worked for
-
-| OANDA                                                     | IBM Canada                                                       |
-| :-------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![OANDA]({{ site.url }}/images/about/OANDA.png "OANDA")   | ![IBMCanada]({{ site.url }}/images/about/IBM.png "IBM Canada")   |
-| Web Application Developer                                 | Java Application Developer                                       |
-
----
-
 #Contact me
 
 
