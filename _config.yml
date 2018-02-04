@@ -1,43 +1,36 @@
-# Site Settings
-title: Jekflix | A theme for Jekyll
-email: youremail@xyz.com
-description: Some text about your blog.
-baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
-url: "https://www.rossener.com" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+# Profile information
+name: Fresh
+title: Fresh - Free Jekyll Theme
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/fresh" # the subpath of your site, e.g. /blog
+url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
 
-# User Settings
-username: Jekflix
-user_description: Some text about you.
-disqus_username: disqus_username
+# Social
+facebook: #Add your Facebook
+twitter: #Add your Twitter
+google-plus: #Add your Google+
+github: #Add your Github
 
-# Social Media
-# Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+# Contact form
+email: #your-email@domain.com
+
+# Comments
+discus-identifier: # Add your Disqus identifier
+
+# Paginate
+paginate: 5
+paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-
-# Plugins
 gems:
-  - jemoji
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
-
-# Exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+include: [_pages]
