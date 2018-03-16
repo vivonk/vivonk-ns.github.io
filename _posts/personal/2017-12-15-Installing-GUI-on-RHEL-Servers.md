@@ -24,5 +24,9 @@ yum groupinstall "GNOME Desktop" "Graphical Administration Tools"
 ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
 ```
 
+#### 3. Now what? just make a reboot
+```
+reboot
+```
 
 	
