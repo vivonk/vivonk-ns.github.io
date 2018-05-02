@@ -1,5 +1,4 @@
-wleelavivat
-===========
+Person website, contains blogs, posts, code snippets and more.
 
 Personal Blog &amp; Profile
 
